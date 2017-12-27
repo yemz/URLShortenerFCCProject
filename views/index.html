@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>URL Shortener Microservice - FCC Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+   <link href="style.css" rel="stylesheet" type="text/css">
+   <style></style>
+</head>
+<body>
+   <div class = "container">
+      <h1 class = "header text-center">URL Shortener Microservice</h1>
+      <h4 class = "subheader text-center">(Back End FreeCodeCamp Project)</h4>
+      <h5 class = "subheader text-center">Tools: AWS - EC2 (Ubuntu), Apache, MongoDB (mLab), Node.js, Glitch</h5>
+         <div class = "userStories">
+           <h4 class= "stories">User stories:</h4>
+            
+             <ul>1. I can pass a URL as a parameter and I will receive a shortened URL in the JSON response.</ul>
+             <ul>2. If I pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain an error instead.</ul>
+             <ul>3. When I visit that shortened URL, it will redirect me to my original link.</ul>       
+         </div>
+
+      <h4>Original URL Test:</h4>
+      <code class = "text-primary bg-info">https://urlshortener-fccproject.glitch.me/new/http://yahoo.com</code><br>
+     
+      <h4>Output:</h4>
+      <code class = "text-primary bg-info">
+         {
+             original_url: "http://yahoo.com",
+             short_url: "https://urlshortener-fccproject.glitch.me/HyakfOZQz"
+         }
+      </code>
+      <br><br>
+      <h4>Short URL Test:</h4>
+      <code class = "text-primary bg-info">https://urlshortener-fccproject.glitch.me/HyakfOZQz</code>
+      <br>
+      <h4>Redirect to Original URL: </h4>
+      <code class = "text-primary bg-info">http://yahoo.com</code> 
+ 
+   </div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12 footer">
+  <footer class="text-center">
+
+  <i class="fa fa-copyright" aria-hidden="true"></i>URL Shortener Microservice - FreeCodeCamp Back End Project. By
+    <a href="https://github.com/yemz/URLShortenerFCCProject"> Yessenia Melendez</a>. 
+  </footer>
+</div>
+  </div>
+    </div>
+
+<script type="text/javascript">
+
+</script>
+
+</body>
+</html>
