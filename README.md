@@ -1,10 +1,6 @@
-# URLShortenerFCCProject
+# URL Shortener Microservice - (Back End FreeCodeCamp Project)
 
-URL Shortener Microservice
-
-(Back End FreeCodeCamp Project)
-
-Tools: AWS - EC2 (Ubuntu), Apache, MongoDB (mLab), Node.js, Glitch
+Tools: AWS - EC2 (Ubuntu), Apache, MongoDB (mLab), Node.js, Express.js, Glitch.com
 
 User stories:
 
